@@ -54,3 +54,20 @@ footer {
     color: white;
     margin-top: 20px;
 }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+section, footer {
+    animation: fadeIn 2s ease-in-out;
+}
+
+header {
+    animation: slideUp 1.5s ease-in-out;
+}
