@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scrap Materials - Rinku Old Scrap</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Scrap Materials</h1>
+    <div class="kebab-menu" onclick="toggleMenu()">⋮</div>
+    <nav id="nav-menu" class="hidden">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="materials">
+    <div class="card">1. AC (1 Ton Copper Coil) – ₹3499/piece</div>
+    <div class="card">2. AC (1.5 Ton Copper Coil) – ₹4499/piece</div>
+    <div class="card">3. AC (2 Ton Copper Coil) – ₹5499/piece</div>
+    <div class="card">4. Iron – ₹28/kg</div>
+    <div class="card">5. Newspaper – ₹11/kg</div>
+    <div class="card">6. Brass – ₹349/kg</div>
+    <div class="card">7. Plastic – ₹10/kg</div>
+    <div class="card">8. Books – ₹11/kg</div>
+    <div class="card">9. Refrigerator (Double Door) – ₹999/piece</div>
+    <div class="card">10. Steel – ₹25/kg</div>
+    <div class="card">11. Carton – ₹8/kg</div>
+    <div class="card">12. Copper – ₹550/kg</div>
+    <div class="card">13. Aluminium – ₹130/kg</div>
+    <div class="card">14. Wires and Cables – Depends on material</div>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-menu").classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>
