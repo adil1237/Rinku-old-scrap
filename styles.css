@@ -1,24 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-}
-.sticky-icons {
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.call-icon, .whatsapp-icon {
-  background: #25D366;
-  padding: 10px;
-  color: white;
-  font-size: 24px;
-  text-align: center;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: transform 0.3s ease-in-out;
-}
-.call-icon:hover, .whatsapp-icon:hover {
-  transform: scale(1.2);
-}
+body { margin: 0; font-family: Arial, sans-serif; background: #fafafa; }
+.hero { background-color: #2c3e50; color: white; padding: 2rem; text-align: center; }
+.top-contact, .contact-horizontal { background: #f5f5f5; padding: 1rem; text-align: center; }
+.sticky-icons { position: fixed; right: 10px; bottom: 10px; }
+.call-icon, .whatsapp-icon { display: block; margin-bottom: 10px; background: green; color: white; padding: 10px; border-radius: 50%; text-align: center; }
